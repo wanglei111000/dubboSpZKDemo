@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dubboDemoConsumer:war">
+    <output-path>$PROJECT_DIR$/dubboDemoConsumer/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>dubboDemoConsumer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="dubboDemoConsumer-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="dubboDemoConsumer:war exploded" />
+    </root>
+  </artifact>
+</component>

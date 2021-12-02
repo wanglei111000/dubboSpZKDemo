@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dubboServiceProvider:war">
+    <output-path>$PROJECT_DIR$/dubboServiceProvider/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>dubboServiceProvider</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="dubboServiceProvider-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="dubboServiceProvider:war exploded" />
+    </root>
+  </artifact>
+</component>
